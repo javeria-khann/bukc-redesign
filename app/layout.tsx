@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
+import { AiChatbot } from "@/components/ai-chatbot";
 import { WelcomeConfetti } from "@/components/welcome-confetti";
 
 import "./globals.css";
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <WelcomeConfetti />
+        <AiChatbot />
         {children}
       </body>
     </html>
