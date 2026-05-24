@@ -29,6 +29,7 @@ const navItems = [
   ["About", "#about"],
   ["Admissions", "#admissions"],
   ["Programs", "#academics"],
+  ["Students", "/students"],
   ["Campus Life", "#campus-life"],
   ["Research", "#research"],
   ["Contact", "#contact"]
